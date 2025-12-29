@@ -1,1 +1,2 @@
 [点击查看markdownnotes笔记](markdown-notes.md)
+[点击查看我是如何把笔记推送到网站上的](note-takingSetupMethod.md)
