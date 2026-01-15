@@ -5,3 +5,5 @@
 [点击查看创客入门所需简单元件](mangomarkertool.md)
 
 [点击我查看芒芒果的神经py修炼大法](MangmangsPyDiary.md)
+
+[点击我查看芒芒果的Icode竞赛训练手记](Icodescratch.md)
