@@ -7,3 +7,5 @@
 [点击我查看芒芒果的神经py修炼大法](MangmangsPyDiary.md)
 
 [点击我查看芒芒果的Icode竞赛训练手记](Icodescratch.md)
+
+[点击我查看芒芒果的蓝牙小发明学习记录](Icodescratch.md)
