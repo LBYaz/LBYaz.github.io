@@ -67,7 +67,7 @@ void loop() {
 ```C++
 void loop() {
   tone(3, 456,100);   
-    delay(100);   
+  delay(100);   
   noTone(3);                        
   delay(1000);     
   }   
@@ -124,10 +124,10 @@ void loop() {
   pinMode(echoPin, INPUT);
   duration = pulseIn(echoPin, HIGH);
   cm=(duration*0.034)/2;
-Serial.print("超声波: ");
-Serial.print(cm);
-Serial.println("cm");
-delay(1000);
+  Serial.print("超声波: ");
+  Serial.print(cm);
+  Serial.println("cm");
+  delay(1000);
 }
 ```
 
