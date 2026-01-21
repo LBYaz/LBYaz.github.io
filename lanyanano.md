@@ -98,5 +98,59 @@ int i=200;
  }  
 }   
 ```
- 
+
+### 4.超声波实验
+
+#### 1.超声波传感器Trigger(out)引脚连接到引脚11,Echo(in)接到12。
+       
+#### 2.
+```C++
+int trigPin = 11;
+int echoPin = 12;
+int duration;
+int cm;
+void setup() {
+  Serial.begin(9600);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+}
+
+void loop() {
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  pinMode(echoPin, INPUT);
+  duration = pulseIn(echoPin, HIGH);
+  cm=(duration*0.034)/2;
+Serial.print("超声波: ");
+Serial.print(cm);
+Serial.println("cm");
+delay(1000);
+}
+```
+
+### 5.蓝牙模块
+
+1.蓝牙模块连接到Nano板子的UART1。
+
+2.Nano板子连接到电脑，打开串口助手，设置波特率为9600。
+
+3.Nano板子发送AT指令，Nano板子进入命令模式。
+
+串口函数：Serical()。 串口输出函数Serial.println("防丢笔接收端启动");
+
+available()函数：判断有无数据可读？。
+### 6.数据类型
+
+int 整数型变量
+
+boolean 布尔型变量  true/false
+
+char 字符型变量  'a'
+
+字符串型变量  char str[] = "hello world";
+
+
 
