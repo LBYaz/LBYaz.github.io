@@ -92,7 +92,7 @@
 
 ## 7.每日练习打字
 
-[蓝豆打字练习：经典双指](https://www.bilibili.com/)
+[蓝豆打字练习：经典双指](https://www.ldou.com/app/#/appUser/typing)
 
 [蓝豆打字练习：26字母速成](https://www.ldou.com/app/#/appUser/typing/2)
 
