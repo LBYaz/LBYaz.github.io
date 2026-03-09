@@ -13,3 +13,7 @@
 [点击我查看芒芒果的新年first计划](newyeartravel.md)
 
 [点击我查看学生假期练习指南](studentholidaypractice.md)
+
+[点击我查看Arduino基础](aduinolearn.md)
+
+[点击我查看软测修行](ruance.md)
