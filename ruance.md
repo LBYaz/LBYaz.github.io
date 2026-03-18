@@ -1,7 +1,7 @@
 # 软测
 
 ## 软件测试基础
-（自用学习笔记，跟着黑马程序员学习）
+
 ### Day1
 
 #### 学习目标
@@ -34,10 +34,39 @@
 
 使用**技术**手段**验证**软件是否满足使用需求
 
+示例：![](imageruance\image2.png)
+
 ###### 1.1.5软件测试目的
+
+减少软件缺陷（bug）保障软件质量![](imageruance\image3.png)
+
 
 ##### 1.2测试主流技能
 
+###### 1.功能测试
+
+![](imageruance\image4.png)
+
+###### 2.自动化测试
+
+使用代码或工具代替手工，对项目进行测试![](imageruance\image5.png)
+
+###### 3.接口测试
+
+什么是接口？![](imageruance\image6.png)
+![](imageruance\image7.png)使用代码或工具对服务端提供的接口进行测试
+
+接口测试-工具实现![](imageruance\image8.png)
+
+接口测试-代码实现![](imageruance\image9.png)
+
+###### 4.性能测试
+
+模拟多人使用软件，查找服务器缺陷
+
+性能测试-工具实现![](imageruance\image10.png)
+
+性能测试-代码实现![](imageruance\image11.png)
 ##### 1.3常见的测试分类
 
 ##### 1.4测试模型 
