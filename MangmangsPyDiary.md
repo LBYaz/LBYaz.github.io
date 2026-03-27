@@ -67,4 +67,114 @@ print(""" 沁园春.雪
 俱往矣，数风流人物，还看今朝。    """)
 ```
 
+```python
+'''这个也是注释
+'''
+```
+#### 1.math函数
 
+调用math模块，它提供了许多对浮点数的数学运算函数。
+```python
+import math
+# math.sin(x)	返回 x 弧度的正弦值。
+a = math.sin(1)
+print(a)
+```
+![](imagepy\image1.png)
+```python
+a = -1
+b = -2
+c = 3
+x1 = (-b+(b ** 2 - 4 * a * c) ** (1 / 2))/(2 * a)
+x2 = (-b-(b ** 2 - 4 * a * c) ** (1 / 2))/(2 * a)
+print(x1)
+print(x2)
+```
+
+#### 2.变量名
+
+##### 1.变量名要求：1.在定义变量时，为了保证代码格式，= 的左右应该各保留一个空格
+
+##### 2.在 Python 中，如果变量名需要由二个或多个单词组成时，可以按照以下方式命名
+
+小驼峰式命名法：
+
+第一个单词以小写字母开始，后续单词的首字母大写
+
+大驼峰式命名法：
+
+每一个单词的首字母都采用大写字母
+
+下划线命名法：
+
+#### 3.变量类型
+
+##### 1.不可变类型
+
+数字类型【int,bool,float浮点数,complex,long】
+
+字符串【str】
+
+元组【tuple】
+
+##### 2.可变类型
+
+列表【list】
+
+字典【dict】
+
+##### 3.算数优先级
+
+（） 
+
+ 乘方** 
+
+  */   
+  
+  +-  
+
+```python
+shu = 2 ** 3
+print(shu)
+```
+
+#### 4.Python len()
+
+方法返回对象（字符、列表、元组等）长度或项目个数。
+
+```python
+print(len('Hello'))
+UserName = "Lipeiyi"
+# 使用索引来获取当前字符
+print(UserName[0])
+```
+
+#### 5.type() 函数
+
+如果你只有第一个参数则返回对象的类型，三个参数返回新的类型对象。
+
+```python
+# None 空值类型
+UserName = None
+print(type(UserName))
+print(type(shu))
+```
+
+#### 6.模式分类
+
+交互模式的进入：终端输入python3,quit()退出，没办法保存退出就没有了
+
+命令模式，常用
+
+#### 7.input()和int()
+
+input() 函数接受一个标准输入数据，返回为 string 类型。
+
+int() 函数用于将一个字符串或数字转换为整型。
+
+```python
+user_age=int(input("请输入您的年龄"))
+user_age_after_10_year = user_age + 10
+print(user_age)
+print("您十年后的年龄是："+ str(user_age_after_10_year))
+```
