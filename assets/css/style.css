@@ -89,7 +89,7 @@ footer {
 
 /* 图片自适应：解决你之前的图片过大问题 */
 img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
