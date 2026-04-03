@@ -120,4 +120,4 @@ void loop()
 
 将程序上传到Arduino板子上后，我们就可以听到滴答声了，这是常开触点打开和常开触点闭合的声音。
 
-[← 点击返回首页](sslocal://flow/file_open?url=https%3A%2F%2FLBYaz.github.io%2Findex.html&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
+[← 返回首页](sslocal://flow/file_open?url=%2Findex.html&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
