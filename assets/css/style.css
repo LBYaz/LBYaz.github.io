@@ -1,103 +1,93 @@
-/* 全局样式 */
+/* 全局样式重置：统一默认样式 */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Microsoft YaHei", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f7f8fa;
-    color: #333;
-    line-height: 1.7;
+  font-family: "Microsoft Yahei", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
 }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* 导航栏 */
+/* 1. 对应 HTML 里的 .navbar 导航栏 */
 .navbar {
-    background: #2c3e50;
-    color: white;
-    padding: 18px 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #2c3e50; /* 深蓝色导航栏 */
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+/* 对应 .container 容器：统一宽度，居中 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* 对应 .logo 标题 */
 .navbar .logo {
-    font-size: 22px;
-    display: inline-block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: inline-block;
 }
+
+/* 对应导航栏里的 <nav> 链接 */
 .navbar nav {
-    float: right;
-    margin-top: 5px;
+  float: right;
+  margin-top: 0.5rem;
 }
+
 .navbar nav a {
-    color: white;
-    margin-left: 20px;
-    text-decoration: none;
-    font-size: 16px;
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  transition: color 0.3s;
 }
+
 .navbar nav a:hover {
-    color: #4fc3f7;
+  color: #3498db; /*  hover 变浅蓝色 */
 }
 
-/* 内容区域 */
+/* 2. 对应 .content 内容区 */
 .content {
-    background: white;
-    margin: 30px auto;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  min-height: calc(100vh - 180px); /* 撑满页面，footer 贴底 */
 }
 
-/* 标题样式 */
-h1 {
-    color: #2c3e50;
-    margin-bottom: 20px;
-    border-left: 5px solid #4fc3f7;
-    padding-left: 12px;
-}
-h2 {
-    color: #34495e;
-    margin: 30px 0 15px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #eee;
+/* 内容区标题样式 */
+.content h1, .content h2, .content h3 {
+  color: #2c3e50;
+  margin: 1.5rem 0 1rem;
 }
 
-/* 链接样式 */
-a {
-    color: #0366d6;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
+.content p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
-/* 列表 */
-ul {
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-li {
-    margin-bottom: 8px;
+.content ul {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
 }
 
-/* 徽章 */
-img {
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
-/* 底部 */
+/* 3. 对应 footer 底部 */
 footer {
-    text-align: center;
-    padding: 25px 0;
-    color: #666;
-    font-size: 14px;
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
 }
-/* 图片自适应样式 */
+
+/* 图片自适应：解决你之前的图片过大问题 */
 img {
   max-width: 100%;
   height: auto;
@@ -105,4 +95,14 @@ img {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   display: block;
   margin: 20px auto;
+}
+
+/* 链接样式 */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
