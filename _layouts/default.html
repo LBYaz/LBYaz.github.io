@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | 芒果的笔记站</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">📚 芒果的技术笔记</h1>
+            <nav>
+                <a href="/">首页</a>
+                <a href="#python">Python</a>
+                <a href="#hardware">硬件编程</a>
+                <a href="#notes">学习笔记</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 中间内容区域 -->
+    <main class="container content">
+        {{ content }}
+    </main>
+
+    <!-- 底部 -->
+    <footer>
+        <div class="container">
+            <p>© 2026 芒果 | 持续学习，持续进步 ✨</p>
+        </div>
+    </footer>
+</body>
+</html>

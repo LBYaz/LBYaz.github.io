@@ -1,1 +1,6 @@
-theme: jekyll-theme-slate
+title: 芒果的技术笔记站
+description: Python、Arduino、硬件编程学习笔记
+theme: null # 关闭默认主题，用自定义模板
+baseurl: ""
+url: "https://LBYaz.github.io"
+markdown: kramdown
