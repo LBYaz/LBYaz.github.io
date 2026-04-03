@@ -2,7 +2,6 @@
 layout: default
 title: 首页
 ---
-
 ![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)
 ![Markdown](https://img.shields.io/badge/Markdown-%23000000?logo=markdown)
 ![Last Update](https://img.shields.io/github/last-commit/LBYaz/LBYaz.github.io)
