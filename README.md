@@ -17,7 +17,7 @@ title: 首页
 
 - [点击查看我是如何把笔记推送到网站上的](note-takingSetupMethod.md)
 
-- [点击查看我是如何使用vscode编写硬件的]（ArduinoMakerWorkshop.md）
+- [点击查看我是如何使用vscode编写硬件的](ArduinoMakerWorkshop.md)
 
 ## 🐍 学习
 - [点击我查看芒芒果的神经py修炼大法](MangmangsPyDiary.md)
