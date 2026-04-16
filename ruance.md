@@ -424,6 +424,22 @@ Web测试核心技能，也是你的重点。2026年4月7日
 - 1.确认业务流程图
 - 2.流程图中从开始到结束每条路径都是**一条用例**
 
+例子
+![](imageruance/image43.png)
+![](imageruance/image44.png)
+![](imageruance/image45.png)
+
+#### 提示
+
+- 项目先测主业务在测单模块
+
+- 提测时先对主业务流程正向用例进行测试（冒烟）
+
+#### 练习
+
+![](imageruance/image46.png)
+![](imageruance/image47.png)
+![](imageruance/image48.png)
 
 
 
