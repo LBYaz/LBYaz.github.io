@@ -37,5 +37,8 @@ title: 首页
 
 - [点击我查看芒芒果的蓝牙小发明学习记录](lanyanano.md)
 
+- [点击我查看芒芒果的网页最新进展](html.md)
+
+
 ## 🎉 生活与计划
 - [点击我查看芒芒果的新年first计划](newyeartravel.md)
