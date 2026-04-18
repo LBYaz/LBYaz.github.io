@@ -120,5 +120,38 @@ void loop()
 
 将程序上传到Arduino板子上后，我们就可以听到滴答声了，这是常开触点打开和常开触点闭合的声音。
 
-## 四.
+## 四.U型光电传感器
+
+### 1.实验目的
+
+将一张纸放入U 中间，aduino外接一个led,led就会亮；取出纸张就会熄灭。
+
+![image-20260418173210808](imageaduino/image4.png)
+
+![image-20260418173308490](imageaduino/image5.png)
+
+### 2.代码
+
+```const int doPin = 13; // 连接到数字引脚13
+const int doPin = 13; // 连接到数字引脚13
+const int ledPin = 12; // 连接到数字引脚12
+void setup() {
+    // 初始化
+    Serial.begin(115200);
+    pinMode(13, INPUT);
+    pinMode(12, OUTPUT);
+}
+
+void loop() {
+    // 主程序
+    boolean Value = digitalRead(doPin); // 读取数字引脚13的值
+    if (Value == HIGH) { // 如果值为HIGH   
+        digitalWrite(ledPin, HIGH); // 点亮LED
+        Serial.println("LED ON");
+    } else { // 否则
+        digitalWrite(ledPin, LOW); // 熄灭LED
+        Serial.println("LED OFF");
+    }
+}
+```
 
