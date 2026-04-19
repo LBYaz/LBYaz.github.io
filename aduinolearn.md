@@ -133,7 +133,7 @@ void loop()
 ### 2.代码
 
 ```C++
-____const int doPin = 13; // 连接到数字引脚13
+const int doPin = 13; // 连接到数字引脚13
 const int doPin = 13; // 连接到数字引脚13
 const int ledPin = 12; // 连接到数字引脚12
 void setup() {
