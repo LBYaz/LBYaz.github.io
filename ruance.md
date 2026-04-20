@@ -509,6 +509,8 @@ https://www.processon.com/
 
 ![](imageruance/image52.png)
 
+<img src="imageruance/image54.png" alt="image-20260420164959413" style="zoom:70%;" />
+
 ##### 测试练习
 
 设计立即购买下单业务测试用例
@@ -519,17 +521,62 @@ https://www.processon.com/
 
 1.将文字流程转流程图
 
+![image53](imageruance/image53.png)
+
 2.编写下单业务（立即购买）测试用例
 
 流程图
 
+##### 缺陷跟踪管理
+
+- 缺陷跟踪流程
+
+测试：提交bug->验证bug->关闭bug/打开bug
+开发：确认bug->修复bug
+
+- 回归测试
+
+验证当前bug是否已经修复
+
+验证是否引起新的bug
+
+![image55](imageruance/image55.png)
+
+启动项目![image56](imageruance/image56.png)
+
+用户团队管理
+
+![image57](imageruance/image57.png)
+
+前面都不是测试人员干的，我们进来点测试即可
+
+![image58](imageruance/image58.png)
+
+![image59](imageruance/image59.png)
+
+#### 项目单模块-登录测试点分析
+
+下单业务线中核心单功能
+
+- 登录
+
+- 购物车功能
+
+- 下单功能
+
+- 支付功能
+
+##### 单功能测试步骤
 
 
-- P25. 项目-下单业务用例执行.md
 
-- P26. 项目-下单业务缺陷提交.md
 
-- P27. 项目单模块-登录测试点分析.md
+
+
+
+
+
+
 
 - P28. 项目-登录测试点转用例.md
 
