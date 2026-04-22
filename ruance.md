@@ -568,15 +568,31 @@ https://www.processon.com/
 
 ##### 单功能测试步骤
 
+1️⃣熟悉需求
 
+2️⃣提取测试点覆盖
 
+3️⃣测试点转执行测试用例
 
+4️⃣缺陷管理
 
+##### 案例：登录
 
+![60](C:\Users\刘昕宇\Desktop\notes\LBYaz.github.io\imageruance\image-60)
 
+- 分析
 
+![61](C:\Users\刘昕宇\Desktop\notes\LBYaz.github.io\imageruance\image-61)
 
+- 测试点
 
+![62](C:\Users\刘昕宇\Desktop\notes\LBYaz.github.io\imageruance\image-62)
+
+- 用例文档
+
+  （3条）
+
+  ![63](C:\Users\刘昕宇\Desktop\notes\LBYaz.github.io\imageruance\image-63)
 
 - P28. 项目-登录测试点转用例.md
 
