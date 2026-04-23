@@ -521,11 +521,15 @@ https://www.processon.com/
 
 1.将文字流程转流程图
 
-![image53](imageruance/image53.png)
+![](imageruance/image53.png)
 
 2.编写下单业务（立即购买）测试用例
 
-流程图
+测试点
+
+![64](imageruance/image-64.png)
+
+![65](imageruance/image-65.png)
 
 ##### 缺陷跟踪管理
 
@@ -578,23 +582,31 @@ https://www.processon.com/
 
 ##### 案例：登录
 
-![60](C:\Users\刘昕宇\Desktop\notes\LBYaz.github.io\imageruance\image-60)
+![60](imageruance\image-60)
 
 - 分析
 
-![61](C:\Users\刘昕宇\Desktop\notes\LBYaz.github.io\imageruance\image-61)
+![61](imageruance\image-61)
 
 - 测试点
 
-![62](C:\Users\刘昕宇\Desktop\notes\LBYaz.github.io\imageruance\image-62)
+![62](imageruance\image-62)
 
 - 用例文档
 
   （3条）
 
-  ![63](C:\Users\刘昕宇\Desktop\notes\LBYaz.github.io\imageruance\image-63)
+  ![63](imageruance\image-63)
 
-- P28. 项目-登录测试点转用例.md
+##### 案例：购物车
+
+![66](imageruance/image-66.png)
+
+
+
+![67](imageruance/image-67.png)
+
+
 
 - P29. 项目单模块-购物车测试点提取.md
 
