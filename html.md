@@ -58,15 +58,17 @@
 
 ![image-20260417170933270](imagehtml/image1)
 
-#### 段落
+#### 段落（p）
 
 - p 标签用于定义段落
 
 - 特点：1.文本在一个段落中可以根据浏览器窗口的大小进行自动换行
 
   ​            2.段落和段落之间保有空隙
+  
+  ![6](imagehtml/image6.png)![image-20260424155036834](imagehtml/image-7.png)
 
-#### 换行标签
+#### 换行标签(br)
 
 - br,单词 break的缩写，意为打断、换行
 
@@ -74,11 +76,27 @@
 
   ​            2.只是简单开始新的一行，段落之间会插入一些垂直的间距
 
-  ![image-20260417171507584](imagehtml/image2,png)
+  ![2](imagehtml/image-2.png)![3](imagehtml/image-3.png)
 
-#### 练习：体育新闻
+#### 水平线（hr）
 
-![image-20260417171933085](imagehtml/image3.png)
+- 可以设置属性：颜色color,宽度width（px是像素）,高度size,对齐方式（默认居中）align
+
+![8](imagehtml/image-8.png)![9](imagehtml/image9.png)
+
+![10](imagehtml/image-10.png)![image-20260424160003954](imagehtml/image-11.png)
+
+![12](imagehtml/image-12.png)![13](imagehtml/image-13.png)
+
+ 提问
+
+1.要实现一个文本换行，可以使用——标签
+
+2.承载段落文本信息使用——标签
+
+br
+
+p
 
 #### 文本格式化标签
 
@@ -90,4 +108,37 @@
 
 - 下划线 ins 或u
 
-![image-20260417172130103](imagehtml/image4.png)
+![4](imagehtml/image4.png)
+
+#### 标签之图片(img)
+
+- src:路径
+- alt:图片无法显示时候显示
+- width:规定宽度
+- height:高度
+- title:鼠标悬停上面提示
+
+![14](imagehtml/image-14.png)
+
+ 提问
+
+1.img标签中alt属性的作用：       
+
+2.以下哪个不是img标签的属性：src\alt\title\href
+
+规定图像的代替文本
+
+href
+
+#### 图片的路径详解
+
+- 绝对路径
+- 相对路径
+- 网络路径
+
+![15](imagehtml/image-15.png)
+
+#### 超文本链接(a)
+
+
+
