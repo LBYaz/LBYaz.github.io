@@ -608,7 +608,23 @@ https://www.processon.com/
 
 
 
-- P29. 项目单模块-购物车测试点提取.md
+- 分析
+
+![68](imageruance\image-68)
+
+（隐形的）
+
+![69](./imageruance/image-69)
+
+- 用例
+
+![70](./imageruance/image-70)
+
+
+
+
+
+
 
 - P30. 项目单模块-购物车隐性测试点提取.md
 
