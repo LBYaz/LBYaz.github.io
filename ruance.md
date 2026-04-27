@@ -610,33 +610,41 @@ https://www.processon.com/
 
 - 分析
 
-![68](imageruance\image-68)
+<img src="imageruance\image-68" alt="68" style="zoom:80%;" />
 
 （隐形的）
 
-![69](./imageruance/image-69)
+<img src="./imageruance/image-69" alt="69" style="zoom:80%;" />
 
 - 用例
 
-![70](./imageruance/image-70)
+##### ![70](./imageruance/image-70)案例：支付
+
+- 需求
+
+  <img src="imageruance/image-72.png" alt="72" style="zoom:80%;" />
+
+<img src="imageruance/image-71.png" alt="71" style="zoom:80%;" />
 
 
 
+- 分析测试点
 
+![73](imageruance/image-73.png)
 
+<img src="imageruance/image-74.png" alt="74" style="zoom:80%;" />
 
+- 测试用例
 
-- P30. 项目单模块-购物车隐性测试点提取.md
+![75](imageruance/image-75.png)
 
-- P31. 项目单模块-购物车测试点转用例.md
+###  12项目非功能测试
 
-- P32. 项目单模块-支付测试点提取.md
+- 质量模型：功能性、**非功能性测试（兼容性、易用性、性能、安全、迁移性、维护性、可靠性）**
+- 重点测试：功能性、兼容性、易用性、性能、安全
+- 独立测试：安全、性能
 
-- P33. 项目单模块-支付测试点转用例.md
-
-- P34. 项目非功能测试.md
-
-## 03. 客户端App测试实战 (P35-P46)         
+## 03. 客户端App测试实战 (P35-P46)
 
 App测试专项技能
 
