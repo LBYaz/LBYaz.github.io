@@ -42,6 +42,7 @@ title: 首页
 
 - [点击我查看芒芒果的网页最新进展](html.md)
 
+- [点击我查看nano进展](NANO.md)
 
 ## 🎉 生活与计划
 - [点击我查看芒芒果的新年first计划](newyeartravel.md)
