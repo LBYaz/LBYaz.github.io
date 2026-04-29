@@ -24,7 +24,7 @@ delayMicroseconds(us)————（微秒）
 
 text01
 
-```C++
+```c++
 void setup() {
     pinMode(2, OUTPUT);
 }
@@ -34,3 +34,4 @@ void loop() {
     digitalWrite(2, LOW);   
     delay(1000);
 }
+```
