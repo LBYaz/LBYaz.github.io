@@ -21,8 +21,8 @@ title: 首页
 
 - [点击查看我是如何打包项目的](TurboWarpdabao.md)
 
-
 ## 🐍 学习
+
 - [点击我查看芒芒果的神经py修炼大法](MangmangsPyDiary.md)
 
 - [点击我查看软测修行](ruance.md)
@@ -31,7 +31,10 @@ title: 首页
 
 [点击我查看Arduino基础](aduinolearn.md)
 
+[点击我查看万用表使用](wanyongbiao.md)
+
 ## 🎒 学生专区
+
 - [点击查看创客入门所需简单元件](mangomarkertool.md)
 
 - [点击我查看芒芒果的Icode竞赛训练手记](Icodescratch.md)
