@@ -88,15 +88,7 @@
 
 ![12](imagehtml/image-12.png)![13](imagehtml/image-13.png)
 
- 提问
 
-1.要实现一个文本换行，可以使用——标签
-
-2.承载段落文本信息使用——标签
-
-br
-
-p
 
 #### 文本格式化标签
 
@@ -120,25 +112,32 @@ p
 
 ![14](imagehtml/image-14.png)
 
- 提问
-
-1.img标签中alt属性的作用：       
-
-2.以下哪个不是img标签的属性：src\alt\title\href
-
-规定图像的代替文本
-
-href
-
 #### 图片的路径详解
 
 - 绝对路径
 - 相对路径
 - 网络路径
 
-![15](imagehtml/image-15.png)
+<img src="imagehtml/image-15.png" alt="15"  />
+
+![16](imagehtml/image-16)
 
 #### 超文本链接(a)
 
+想跳哪里就跳哪里
 
+![17](imagehtml/image-17)
 
+![18](imagehtml/image-18)
+
+跳转不一定是文字，图片...都可以
+
+#### 文本标签
+
+![19](imagehtml/image-19)
+
+常用文本标签和段落是不同的，段落代表一段文本，而文本标签一般表示文本词汇
+
+词汇标签可以嵌套在p标签中
+
+![20](imagehtml/image-20)
