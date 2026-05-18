@@ -13,38 +13,41 @@ title: 首页
 ---
 
 ## 🎯 核心笔记
-- [点击查看markdownnotes笔记](markdown-notes.md)
+- [markdownnotes笔记](markdown-notes.md)
 
-- [点击查看我是如何把笔记推送到网站上的](note-takingSetupMethod.md)
+- [我是如何把笔记推送到网站上的](note-takingSetupMethod.md)
 
-- [点击查看我是如何使用vscode编写硬件的](ArduinoMakerWorkshop.md)
+- [我是如何使用vscode编写硬件的](ArduinoMakerWorkshop.md)
 
-- [点击查看我是如何打包项目的](TurboWarpdabao.md)
+- [我是如何打包项目的](TurboWarpdabao.md)
 
 ## 🐍 学习
-- [点击我查看芒芒果的神经py修炼大法](MangmangsPyDiary.md)
+- [芒芒果的神经py修炼大法](MangmangsPyDiary.md)
 
-- [点击我查看软测修行](ruance.md)
+- [软测修行](ruance.md)
 
 ## 🤖 硬件
 
-[点击我查看Arduino基础](aduinolearn.md)
+- [Arduino基础](aduinolearn.md)
 
-[点击我查看万用表使用](wanyongbiao.md)
+- [万用表使用](wanyongbiao.md)
 
-## 🎒 学生专区
+- [nano进展](NANO.md)
 
-- [点击查看创客入门所需简单元件](mangomarkertool.md)
+- [Hc-05蓝牙使用](hc05.md)
+
+## 🎒 工作专区
+
+- [创客入门所需简单元件](mangomarkertool.md)
 
 - [点击我查看芒芒果的Icode竞赛训练手记](Icodescratch.md)
 
-- [点击我查看学生假期练习指南](studentholidaypractice.md)
+- [学生假期练习指南](studentholidaypractice.md)
 
-- [点击我查看芒芒果的蓝牙小发明学习记录](lanyanano.md)
+- [芒芒果的蓝牙小发明学习记录](lanyanano.md)
 
-- [点击我查看芒芒果的网页最新进展](html.md)
+- [芒芒果的网页最新进展](html.md)
 
-- [点击我查看nano进展](NANO.md)
-
+- [26全球发明大赛事项](26chinafm.md)
 ## 🎉 生活与计划
-- [点击我查看芒芒果的新年first计划](newyeartravel.md)
+- [芒芒果的新年first计划](newyeartravel.md)

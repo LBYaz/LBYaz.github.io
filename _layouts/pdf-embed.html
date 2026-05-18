@@ -1,0 +1,159 @@
+---
+layout: default
+---
+<!-- 覆盖 default 的内容区域，专门用于 PDF 预览 -->
+<style>
+    /* PDF 页面专用样式 - 不影响其他页面 */
+    .pdf-wrapper {
+        background: #f5f5f5;
+        margin: -1.5rem -1rem;  /* 抵消 container 的 padding，让 PDF 撑满宽度 */
+        border-radius: 0;
+    }
+    
+    .pdf-toolbar {
+        background: white;
+        padding: 0.8rem 1.5rem;
+        border-bottom: 1px solid #e0e0e0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    
+    .pdf-info {
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    
+    .pdf-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #2c3e50;
+        margin: 0;
+    }
+    
+    .pdf-badge {
+        background: #e8f4f8;
+        color: #2980b9;
+        padding: 0.2rem 0.6rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+    
+    .pdf-actions {
+        display: flex;
+        gap: 0.8rem;
+        align-items: center;
+    }
+    
+    .pdf-btn {
+        background: #3498db;
+        color: white;
+        border: none;
+        padding: 0.4rem 1rem;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 0.85rem;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        transition: background 0.2s;
+    }
+    
+    .pdf-btn:hover {
+        background: #2980b9;
+        color: white;
+    }
+    
+    .pdf-btn.secondary {
+        background: #ecf0f1;
+        color: #2c3e50;
+    }
+    
+    .pdf-btn.secondary:hover {
+        background: #bdc3c7;
+    }
+    
+    .pdf-viewer {
+        width: 100%;
+        height: calc(100vh - 130px);  /* 减去导航栏和工具栏的高度 */
+        min-height: 600px;
+        border: none;
+        background: #525659;
+    }
+    
+    /* 移动端适配 */
+    @media (max-width: 768px) {
+        .pdf-toolbar {
+            padding: 0.6rem 1rem;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .pdf-viewer {
+            height: calc(100vh - 160px);
+        }
+    }
+    
+    /* 如果 PDF 加载失败 */
+    .pdf-error {
+        text-align: center;
+        padding: 3rem;
+        background: #fff3f3;
+        border: 1px solid #f5c6cb;
+        border-radius: 8px;
+        margin: 2rem;
+    }
+</style>
+
+<div class="pdf-wrapper">
+    <div class="pdf-toolbar">
+        <div class="pdf-info">
+            <h2 class="pdf-title">{{ page.pdf_title | default: page.title }}</h2>
+            {% if page.pdf_source %}
+            <span class="pdf-badge">📱 从 Goodnotes 导出</span>
+            {% endif %}
+        </div>
+        <div class="pdf-actions">
+            <a href="{{ page.pdf_url }}" class="pdf-btn secondary" download target="_blank">
+                📥 下载 PDF
+            </a>
+            <a href="javascript:history.back()" class="pdf-btn">
+                ← 返回笔记列表
+            </a>
+        </div>
+    </div>
+    
+    <!-- PDF 嵌入区域 -->
+    <iframe 
+        src="{{ page.pdf_url }}" 
+        class="pdf-viewer" 
+        frameborder="0"
+        title="{{ page.pdf_title | default: page.title }}"
+        loading="lazy"
+    ></iframe>
+    
+    <!-- 备注信息（如果有） -->
+    {% if page.description %}
+    <div style="padding: 0.8rem 1.5rem; background: #fafafa; border-top: 1px solid #e0e0e0; font-size: 0.85rem; color: #666;">
+        📝 {{ page.description }}
+    </div>
+    {% endif %}
+</div>
+
+<!-- 兼容不支持 iframe 的浏览器 -->
+<noscript>
+    <div class="pdf-error">
+        <p>⚠️ 您的浏览器不支持内嵌 PDF 预览。</p>
+        <p><a href="{{ page.pdf_url }}">点击这里下载 PDF 文件</a></p>
+    </div>
+</noscript>
