@@ -36,6 +36,8 @@ title: 首页
 
 - [Hc-05蓝牙使用](hc05.md)
 
+- [Mixly](Mixly.md)
+
 ## 🎒 工作专区
 
 - [创客入门所需简单元件](mangomarkertool.md)
