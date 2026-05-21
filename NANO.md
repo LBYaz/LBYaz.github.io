@@ -181,3 +181,82 @@ void loop() {
 
 摸：HIGH；不摸：LOW
 
+代码自己写写，跟上面类似
+
+### 红外遥控实验
+
+红外接收头只要接受38KHz的频率红外线，对其他频率段的红外信号不敏感。这样遥控器就可以发出载波在38KHz的频率，就能接受信号，从而构成通讯。
+
+任务：通过遥控器控制某个键（如电源键），按键时让双色灯发红，不按为蓝。
+
+IRremote库[IRremote库 – 太极创客](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/irremote-library/)
+
+常用红外协议资料
+
+NEC协议：地址信息+指令信息
+
+1838红外接收器
+
+![6](imageaduino/6)
+
+安装IRremote库：项目--导入库--管理库![7](imageaduino/7.png)
+
+decode函数：用于判断红外接收器所接收到的红外信号是否可以被解析。if成功，返回非零值，将解析结果存储于results;if不成功，返回0。
+
+text04
+
+```c++
+// 1. 包含新版红外库的头文件
+#include <IRremote.hpp>
+
+// 2. 定义引脚名字（方便改，一看就懂）
+
+const int irReceiverPin = 7;  // 红外接收器信号脚接 D7
+
+const int ledPin = 13;     // 板载LED脚 D13
+
+// 3.  setup：只运行一次（初始化）
+
+void setup() {
+
+ pinMode(ledPin, OUTPUT);   // 把LED脚设置为输出模式
+
+ Serial.begin(9600);      // 开启串口，波特率9600（看打印信息）
+
+ IrReceiver.begin(irReceiverPin); // 启动红外接收功能
+
+}
+
+// 4. loop：不断重复运行
+
+void loop() {
+
+ // 如果**接收到了红外信号**
+
+ if (IrReceiver.decode()) {
+
+  // 把收到的红外码打印到串口监视器（方便你看）
+
+  Serial.print("收到红外码: 0x");
+
+  Serial.println(IrReceiver.decodedIRData.decodedRawData, HEX);
+
+  // 判断：是不是我们要的那个按键码
+
+  if (IrReceiver.decodedIRData.decodedRawData == 0xBA45FF00) {
+
+   digitalWrite(ledPin, HIGH);  // 是 → 点亮LED
+
+  } else {
+
+   digitalWrite(ledPin, LOW);  // 不是 → 熄灭LED
+
+  }
+
+  IrReceiver.resume(); // 准备接收下一个信号
+
+ }
+
+}
+```
+
