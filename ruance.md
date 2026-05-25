@@ -762,19 +762,51 @@ https://www.processon.com/
 
   ![78](imageruance/image-78)
 
+![79](imageruance/79)
+
+### 04 App专项测试介绍
+
+专项测试指：在不同的移动设备上能持久、稳定的运行APP程序。
+
+专项测试目的：
+
+- 保障主流移动设备能正常使用app应用
+
+- 不同的网络环境正常使用
+
+- 不同app版本正常使用
+
+专项测试内容：
+
+- 安装卸载升级
+
+- 兼容性
+
+- push消息推送
+
+- 交叉事件
+
+- 用户体验
+
+### 05App测试环境搭建
+
+环境
+
+app应用运行所依赖的环境
+
+- 依赖
+
+  1.mumu模拟器
+
+  2.app安装包
+
+  https://pan.baidu.com/s/1dIq7UnfyqOQRdl7FuDmJfQ?pwd=av2n
 
 
 
 
 
 
-
-
-- P38. 功能测试练习-搜索功能.md
-
-- P39. App专项测试介绍.md
-
-- P40. App测试环境搭建.md
 
 - P41. App专项测试-安装、卸载、升级.md
 
