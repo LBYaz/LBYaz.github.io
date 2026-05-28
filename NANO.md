@@ -237,8 +237,8 @@ void loop() {
 
   // 把收到的红外码打印到串口监视器（方便你看）
 
-  Serial.print("收到红外码: 0x");
-
+  Serial.print("收到红外码: 0x");  
+         
   Serial.println(IrReceiver.decodedIRData.decodedRawData, HEX);
 
   // 判断：是不是我们要的那个按键码

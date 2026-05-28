@@ -26,7 +26,11 @@ title: 首页
 
 - [软测修行](ruance.md)
 
+- [芒芒果的网页最新进展](html.md)
+
 ## 🤖 硬件
+
+- [创客入门所需简单元件](mangomarkertool.md)
 
 - [Arduino基础](aduinolearn.md)
 
@@ -36,11 +40,7 @@ title: 首页
 
 - [Hc-05蓝牙使用](hc05.md)
 
-- [Mixly](Mixly.md)
-
-## 🎒 工作专区
-
-- [创客入门所需简单元件](mangomarkertool.md)
+## 🎒 软件比赛专区
 
 - [点击我查看芒芒果的Icode竞赛训练手记](Icodescratch.md)
 
@@ -48,8 +48,7 @@ title: 首页
 
 - [芒芒果的蓝牙小发明学习记录](lanyanano.md)
 
-- [芒芒果的网页最新进展](html.md)
-
 - [26全球发明大赛事项](26chinafm.md)
 ## 🎉 生活与计划
+
 - [芒芒果的新年first计划](newyeartravel.md)
