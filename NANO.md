@@ -260,3 +260,125 @@ void loop() {
 }
 ```
 
+### 舵机实验
+
+棕色--gnd
+
+红色--5v
+
+橙色--信号线
+
+舵机是一种只能旋转180度的减速电机，它通过板子发送PWM脉冲来控制。
+
+导入库Servo  1.3.0 
+
+servo.attach(9)：告知Arduino舵机的数据线连接在哪一个引脚上9
+
+servo.write(0)：说明 控制舵机旋转。对于标准舵机，write()函数会将舵机轴旋转到相应的角度位置。
+
+text05
+
+```c++
+#include <Servo.h>
+
+Servo myservo;//创建Servo对象用以控制伺服电机。
+//很多开发板允许同时创建12个Servo对象
+void setup() {
+
+ myservo.attach(9);
+
+ myservo.write(0);
+
+ delay(1000); 
+
+}
+
+void loop() {
+
+ myservo.write(15);
+
+ delay(1000); 
+
+ myservo.write(30);
+
+ delay(1000); 
+
+ myservo.write(45);
+
+ delay(1000); 
+
+ myservo.write(60);
+
+ delay(1000); 
+
+ myservo.write(75);
+
+ delay(1000); 
+
+ myservo.write(90);
+
+ delay(1000); 
+
+ myservo.write(75);
+
+ delay(1000); 
+
+ myservo.write(60);
+
+ delay(1000); 
+
+ myservo.write(45);
+
+ delay(1000); 
+
+ myservo.write(30);
+
+ delay(1000); 
+
+ myservo.write(15);
+
+ delay(1000); 
+
+ myservo.write(0);
+
+ delay(1000); 
+
+}
+```
+
+text06
+
+```c++
+#include <Servo.h>
+
+Servo myservo; 
+
+int pos = 0; 
+
+void setup() {
+
+ myservo.attach(9); 
+
+}
+
+void loop() {
+
+  for (pos = 0; pos <= 180; pos += 1) { 
+
+  myservo.write(pos);        
+
+  delay(15);            
+
+ }
+
+ for (pos = 180; pos >= 0; pos -= 1) { 
+
+  myservo.write(pos);       
+
+  delay(15);            
+
+ }
+}
+}
+```
+
