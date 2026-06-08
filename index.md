@@ -15,18 +15,20 @@ title: 首页
 ## 🎯 核心笔记
 - [markdownnotes笔记](markdown-notes.md)
 
-- [我是如何把笔记推送到网站上的](note-takingSetupMethod.md)
+- [笔记推送到网站](note-takingSetupMethod.md)
 
-- [我是如何使用vscode编写硬件的](ArduinoMakerWorkshop.md)
+- [使用vscode编写硬件的](ArduinoMakerWorkshop.md)
 
-- [我是如何打包项目的](TurboWarpdabao.md)
+- [打包项目的](TurboWarpdabao.md)
 
 ## 🐍 学习
-- [芒芒果的神经py修炼大法](MangmangsPyDiary.md)
+- [py](MangmangsPyDiary.md)
 
-- [软测修行](ruance.md)
+- [软测](ruance.md)
 
-- [芒芒果的网页最新进展](html.md)
+- [网页](html.md)
+
+- [数据传输](书写本.md)
 
 ## 🤖 硬件
 
@@ -34,21 +36,21 @@ title: 首页
 
 - [Arduino基础](aduinolearn.md)
 
-- [万用表使用](wanyongbiao.md)
+- [万用表](wanyongbiao.md)
 
-- [nano进展](NANO.md)
+- [nano](NANO.md)
 
-- [Hc-05蓝牙使用](hc05.md)
+- [Hc-05蓝牙](hc05.md)
 
 ## 🎒 软件比赛专区
 
-- [点击我查看芒芒果的Icode竞赛训练手记](Icodescratch.md)
+- [Icode竞赛训练手记](Icodescratch.md)
 
 - [学生假期练习指南](studentholidaypractice.md)
 
-- [芒芒果的蓝牙小发明学习记录](lanyanano.md)
+- [蓝牙小发明学习记录](lanyanano.md)
 
 - [26全球发明大赛事项](26chinafm.md)
 ## 🎉 生活与计划
 
-- [芒芒果的新年first计划](newyeartravel.md)
+- [新年first计划](newyeartravel.md)
