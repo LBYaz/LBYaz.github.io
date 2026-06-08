@@ -25,7 +25,9 @@ title: 首页
 
 - [点击我查看芒芒果的神经py修炼大法](MangmangsPyDiary.md)
 
-- [点击我查看软测修行](ruance.md)
+- [点击我查看软测](ruance.md)
+
+- [数据传输](书写本.md)
 
 ## 🤖 硬件
 
