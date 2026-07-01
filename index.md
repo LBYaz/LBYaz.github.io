@@ -36,6 +36,8 @@ title: 首页
 
 - [创客入门所需简单元件](mangomarkertool.md)
 
+- [数模电路](数模电路.md)
+
 - [Arduino基础](aduinolearn.md)
 
 - [万用表](wanyongbiao.md)
