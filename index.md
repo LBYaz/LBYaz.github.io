@@ -38,6 +38,8 @@ title: 首页
 
 - [数模电路](数模电路.md)
 
+- [焊接](hanji.md)
+
 - [Arduino基础](aduinolearn.md)
 
 - [万用表](wanyongbiao.md)
