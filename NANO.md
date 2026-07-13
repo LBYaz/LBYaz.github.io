@@ -38,6 +38,14 @@ void loop() {
 }
 ```
 
+### Arduino程序函数(Functions)
+
+eg.digitalWrite(LED_BUILTIN,HIGH)，这个就是函数，参数为LED_BUILTIN和HIGH。
+
+分有参，无参。
+
+官网---Learning----Reference或太极创客也可以
+
 ### Arduino循环
 
 - **while循环**
@@ -87,7 +95,13 @@ do {
 
 ### 关键字
 
-**if（){...}else{...}**     如果（条件）执行...否则执行...
+**if（关系表达式)**
+
+**{关系运算结果为真，运行此段程序}**
+
+**else{关系运算结果为假，运行此段程序}**     
+
+如果（条件）执行...否则执行...
 
 ### 数据类型
 
@@ -142,6 +156,22 @@ void loop() {
 ![10](imageaduino/10.png)
 
 ![11](imageaduino/11.png)
+
+### 逻辑控制（按键）
+
+DigitallnputPullup
+
+INPUT_PULLUP是什么？
+
+赋值运算 =
+
+关系运算 ==
+
+if...else...是什么？判断结果两种----truefalse（1和0）
+
+第二种写法：
+
+text09
 
 ### 振动开关传感器实验
 
