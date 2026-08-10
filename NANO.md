@@ -567,3 +567,10 @@ const 的 4 个核心作用:![6](imageaduino/image-6.png)
 3. 有源蜂鸣器：VCC→5V，GND→GND，信号脚接 D12
 
 text08-3
+
+### 19MC猜数字
+
+1.显示0123456789
+
+
+
