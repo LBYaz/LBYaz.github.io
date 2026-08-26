@@ -25,6 +25,8 @@ title: 首页
 
 - [点击我查看芒芒果的神经py修炼大法](MangmangsPyDiary.md)
 
+- [py体使用手册](python课瓦力安装包问题手册.md)
+
 - [点击我查看软测](ruance.md)
 
 - [数据传输](书写本.md)
