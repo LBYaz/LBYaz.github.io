@@ -57,6 +57,9 @@ title: 首页
 - [蓝牙小发明学习记录](lanyanano.md)
 
 - [26全球发明大赛事项](26chinafm.md)
+
+- [安装瓦力宝宝](python课瓦力安装包问题手册.md)
+
 ## 🎉 生活与计划
 
 - [新年first计划](newyeartravel.md)
