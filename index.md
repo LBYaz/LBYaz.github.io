@@ -60,6 +60,8 @@ title: 首页
 
 - [安装瓦力宝宝](python课瓦力安装包问题手册.md)
 
+- [py教学](pyone.md)
+
 ## 🎉 生活与计划
 
 - [新年first计划](newyeartravel.md)
