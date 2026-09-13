@@ -572,5 +572,12 @@ text08-3
 
 1.显示0123456789
 
+### 25模拟输出
 
+控制调节led亮度（注意led接的是模拟管脚）0-255
 
+<img src="imageaduino/14.png" alt="14" style="zoom:80%;" />
+
+analogWrite(ledPin,brightness)
+
+### 27led呼吸
