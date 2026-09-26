@@ -580,4 +580,32 @@ text08-3
 
 analogWrite(ledPin,brightness)
 
+这个是数字还是模拟呀？ ![15](imageaduino/15.png)
+
+![16](imageaduino/16.png)
+
+`analogWrite(ledPin,127)`
+
+举例子：pWM周期为2毫秒，实际上很小比这个
+
+![17](imageaduino/17.png)
+
+`analogWrite(ledPin,191)`
+
+![18](imageaduino/18.png)
+
+`analogWrite(ledPin,   )`
+
+V快到肉眼观察不出来时候
+
 ### 27led呼吸
+
+![19](imageaduino/19.png)
+
+使用for循环
+
+![20](imageaduino/20.png)
+
+作业：想让led呼吸范围在125--255
+
+### 28电位器
