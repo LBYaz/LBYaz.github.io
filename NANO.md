@@ -609,3 +609,53 @@ V快到肉眼观察不出来时候
 作业：想让led呼吸范围在125--255
 
 ### 28电位器
+
+## 二、机械臂
+
+### 伺服电机（舵机）
+
+直流伺服电机：用直流电，伺服(伺候服务)servo
+
+伺服电机基本概念理解：
+
+![11](imageaduino/image-11.png)
+
+![12](imageaduino/image-12.png)
+
+发现与目标状态不相符，继续转动
+
+![13](imageaduino/image-13.png)
+
+转到90度，再次比对，是否与目标状态符合
+
+![14](imageaduino/image-14.png)
+
+当然这里转45度是打个比方来讲，实际上当然不是45度，得看型号
+
+闭环控制系统
+
+![15](imageaduino/image-15.png)
+
+mission complete 任务完成
+
+舵机内部原理
+
+![16](imageaduino/image-16.png)
+
+舵机主要参数
+
+![17](imageaduino/image-17.png)
+
+----
+
+| 5v   | GND  | PWM控制信号 |
+| ---- | ---- | ----------- |
+| 红   | 棕   | 橙          |
+
+----
+
+学习舵机：实例---Serve--Sweep
+
+添加库的学习
+
+![18](imageaduino/image-18.png)
