@@ -644,6 +644,8 @@ mission complete 任务完成
 
 舵机主要参数
 
+这款电机只能转180度，其他的有可能转360度
+
 ![17](imageaduino/image-17.png)
 
 ----
@@ -656,6 +658,47 @@ mission complete 任务完成
 
 学习舵机：实例---Serve--Sweep
 
+![19](imageaduino/image-19.png)![20](imageaduino/image-20.png)
+
 添加库的学习
 
 ![18](imageaduino/image-18.png)
+
+### 串口通讯
+
+复习：这些都属于硬件通过串口通讯发送数据给电脑
+
+.begin(9600)
+
+,println
+
+.print
+
+串口通讯应该是可以互发互传
+
+查一下Serial介绍
+
+**引脚0 RX:接受**
+
+**引脚1 TX：发送**
+
+RX TX工作时候相应led会闪烁
+
+![21](imageaduino/image-21.png)
+
+（一定要接地），我们数据线里连接时候就把GND连接接地了
+
+![22](imageaduino/image-22.png)
+
+![23](imageaduino/image-23.png)
+
+![24](imageaduino/image-24.png)
+
+每一次arduino读取串口数据都是读取一个字节
+
+这里说一个串口通讯标准TTL,规定了高电平可以使用5v，低电平可以使用0v
+
+每一位数据所持续的时间通过波特率来限定，如：9600，每秒传输9600位,9600位信息并非都是数据，串口通讯中有些位信息是用来控制串口通讯的。
+
+### 串口通讯2
+
