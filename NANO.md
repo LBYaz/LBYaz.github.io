@@ -706,5 +706,66 @@ RX TX工作时候相应led会闪烁
 
 是不是得让arduino自己看看有没有数据来？？
 
+**available（）**      [əˈveɪləbl]**函数可用于检查设备是否接收到数据。该函数将会返回等待读取的数据字节数。**查看太极创客
+
+**返回值：等待读取的数据字节数。**
+**返回值数据类型：int**
+
+情况1
+
 ![25](imageaduino/image-25.png)
+
+情况2
+
+![26](imageaduino/image-26.png)
+
+此时返回值为：1
+
+情况3
+
+![27](imageaduino/image-27.png)
+
+串口接收缓存中等待传输的数据字节数量
+
+![28](imageaduino/image-28.png)
+
+返回值1是数字，下面的返回值‘1’是字节的内容，也就是字符。
+
+![29](imageaduino/image-29.png)
+
+发现不对，你在串口输入的，串口返回不对。将int改为char字符型就好了。
+
+去太极创客看看char类型，看看ASCII码，找出原因：是因为当时我们输入1，返回49原因是电脑把这个数据当成ASCII码了用10进制显示出来了
+
+Serial.read成功读取数据后Arduino将已经读取的数据从缓存中清除
+
+![30](imageaduino/image-30.png)
+
+![31](imageaduino/image-31.png)
+
+![32](imageaduino/image-32.png)![33](imageaduino/image-33.png)![34](imageaduino/image-34.png)
+
+欧克，我们在串口监视器输入123看看
+
+![35](imageaduino/image-35.png)
+
+看一下串口输出，如果我们选择换行，会多出一个换行字符出现
+
+```C++
+//这个代码是太极创客Serical.available的示例代码
+void setup() { // 启动串口通讯
+ Serial.begin(9600); 
+ Serial.println();
+}
+void loop() {
+ if(Serial.available()){           // 当串口接收到信息后
+  Serial.println("Serial Data Available..."); // 通过串口监视器通知用户
+  String serialData = Serial.readString();  // 将接收到的信息使用readString()存储于serialData变量
+  Serial.print("Received Serial Data: ");   // 然后通过串口监视器输出serialData变量内容
+  Serial.println(serialData);         // 以便查看serialData变量的信息
+ }
+}
+```
+
+### 控制伺服电机
 
